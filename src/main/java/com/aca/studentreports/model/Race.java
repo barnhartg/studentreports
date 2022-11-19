@@ -2,22 +2,22 @@ package com.aca.studentreports.model;
 
 public enum Race {
 
-	White("White"), 
-	AfricanAmerican("African American"), 
-	Asian("Asian"), 
-	Hispanic("Hispanic"), 
-	NativeAmerican("Native American"), 
-	PacificIslander("Pacific Islander");
+	WHITE("White"), 
+	AFRICANAMERICAN("African American"), 
+	ASIAN("Asian"), 
+	HISPANIC("Hispanic"), 
+	NATIVEAMERICAN("Native American"), 
+	PACIFICISLANDER("Pacific Islander");
 	
-	private String race;
+	private String studentRace;
 	
 	private Race (String race) {
-		this.race = race;
+		this.studentRace = race;
 	}
 	
 	@Override
 	public String toString() {
-		return race;
+		return studentRace;
 	}
 	
 }

@@ -2,17 +2,17 @@ package com.aca.studentreports.model;
 
 public enum GradeLevel {
 
-	Sixth("6th"), Seventh("7th"), Eighth("8th");
+	SIXTH("6th"), SEVENTH("7th"), EIGHTH("8th");
 	
-	private String gradeLevel;
+	private String grade;
 
 	private GradeLevel(String gradeLevel) {
-		this.gradeLevel = gradeLevel;
+		this.grade = gradeLevel;
 	}
 
 	@Override
 	public String toString() {
-		return gradeLevel;
+		return grade;
 	}
 
 }
